@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap" rel="stylesheet">
+  <link href="index.css" rel="stylesheet" />
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo header-logo">
+        <img src="/assets/images/logo.svg" alt="ok">
+        call
+      </div>
+      <nav class="header-navigation">
+        <a href="#calls">Примеры разговоров</a>
+        <a href="#services">Что мы делаем</a>
+        <a href="#price">Тарифы</a>
+        <a href="#features">Почему мы</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Мы — ваш надежный партнер</h1>
+        <div class="hero-image">
+          <img src="/assets/images/hero-image.png" alt="">
+        </div>
+        <div class="hero-info">
+          <p>Наши профессионалы в области обработки звонков и коммуникации с клиентами возьмут на себя все вопросы, связанные с обзвоном, информированием и напоминанием, а также приемом заявок.</p>
+          <button class="hero-info__btn btn modal-btn" type="button">
+            Отправить заявку
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="section calls" id="calls">
+      <div class="container">
+        <h2>Примеры разговоров из разных сфер</h2>
+        <div class="calls-info">
+          <p>Здесь вы можете услышать примеры разговоров из различных сфер бизнеса. Прослушайте записи, чтобы узнать, как профессионалы ведут диалог в разных ситуациях и убедитесь в качестве наших услуг.</p>
+          <button class="calls-info__btn btn modal-btn" type="button">
+            Послушать звонки в моей сфере
+          </button>
+        </div>
+        <div class="calls-list">
+          <div class="calls-list__audio">
+            <img class="calls-list__audio-image" src="/assets/images/calls-example-1.png" alt="">
+            <h3>Установка окон</h3>
+            <button class="calls-list__audio-controlls btn" data-audio="">
+              <svg class="audio-start" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 6.5L0 12.5L6.05683e-07 0.5L12 6.5Z" fill="white"/>
+              </svg>
+              <svg class="audio-pause" width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 13V0M7 13V0" stroke="white" stroke-width="2"/>
+              </svg>
+              <span class="audio-example-text"></span>
+            </button>
+          </div>
+          <div class="calls-list__audio">
+            <img class="calls-list__audio-image" src="/assets/images/calls-example-2.png" alt="">
+            <h3>Автосалон</h3>
+            <button class="calls-list__audio-controlls btn" data-audio="">
+              <svg class="audio-start" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 6.5L0 12.5L6.05683e-07 0.5L12 6.5Z" fill="white"/>
+              </svg>
+              <svg class="audio-pause" width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 13V0M7 13V0" stroke="white" stroke-width="2"/>
+              </svg>
+              <span class="audio-example-text"></span>
+            </button>
+          </div>
+          <div class="calls-list__audio">
+            <img class="calls-list__audio-image" src="/assets/images/calls-example-3.png" alt="">
+            <h3>Салон красоты</h3>
+            <button class="calls-list__audio-controlls btn" data-audio="">
+              <svg class="audio-start" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 6.5L0 12.5L6.05683e-07 0.5L12 6.5Z" fill="white"/>
+              </svg>
+              <svg class="audio-pause" width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 13V0M7 13V0" stroke="white" stroke-width="2"/>
+              </svg>
+              <span class="audio-example-text"></span>
+            </button>
+          </div>
+          <div class="calls-list__audio">
+            <img class="calls-list__audio-image" src="/assets/images/calls-example-4.png" alt="">
+            <h3>Стоматология</h3>
+            <button class="calls-list__audio-controlls btn" data-audio="">
+              <svg class="audio-start" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 6.5L0 12.5L6.05683e-07 0.5L12 6.5Z" fill="white"/>
+              </svg>
+              <svg class="audio-pause" width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 13V0M7 13V0" stroke="white" stroke-width="2"/>
+              </svg>
+              <span class="audio-example-text"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section services" id="services"></section>
+    <section class="section price" id="price"></section>
+    <section class="section work"></section>
+    <section class="section features" id="features"></section>
+    <section class="section steps"></section>
+    <section class="section application"></section>
+  </main>
+  <footer></footer>
+  <div class="wrap-modal-all">
+    <div class="modal-wrap" id="application-modal">
+      <div class="modal"></div>
+    </div>
+    <div class="modal-wrap" id="calls-modal">
+      <div class="modal"></div>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>

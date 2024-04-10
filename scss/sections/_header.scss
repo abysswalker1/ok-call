@@ -1,0 +1,23 @@
+.header {
+  position: absolute;
+  width: 100%;
+  padding-top: 30px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-logo {
+    font-size: 28px;
+  }
+  &-navigation {
+    a {
+      margin-right: 28px;
+    } 
+  }
+
+  @include md {
+    &-navigation {
+      display: none;
+    }
+  }
+}
